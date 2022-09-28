@@ -1,11 +1,18 @@
 {
   "author": "Nicolas Assouad",
   "bugs": {
-    "url": "https://github.com/fondation451/typescript-starter/issues"
+    "url": "https://github.com/fondation451/fulltype-client-react/issues"
   },
-  "description": "Starter repository for typescript project",
+  "dependencies": {
+    "fulltype": "^0.0.11",
+    "fulltype-api": "^0.0.10",
+    "fulltype-client": "^0.0.3",
+    "react": "^18.2.0"
+  },
+  "description": "Fulltype Client React",
   "devDependencies": {
     "@types/jest": "^29.0.3",
+    "@types/react": "^18.0.21",
     "@typescript-eslint/eslint-plugin": "^5.38.0",
     "@typescript-eslint/parser": "^5.38.0",
     "eslint": "^8.23.1",
@@ -18,19 +25,19 @@
     "typescript": "^4.8.3"
   },
   "files": [
-    "lib/src/**/*"
+    "lib/**/*"
   ],
-  "homepage": "https://github.com/fondation451/typescript-starter#readme",
+  "homepage": "https://github.com/fondation451/fulltype-client-react#readme",
   "keywords": [
     "typescript",
     "starter"
   ],
   "license": "MIT",
-  "main": "lib/src/index.js",
-  "name": "typescript-starter",
+  "main": "lib/index.js",
+  "name": "fulltype-client-react",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fondation451/typescript-starter.git"
+    "url": "git+https://github.com/fondation451/fulltype-client-react.git"
   },
   "scripts": {
     "build": "tsc",
@@ -44,6 +51,6 @@
     "test": "jest --passWithNoTests --config jestconfig.json",
     "version": "yarn format && git add -A src"
   },
-  "types": "lib/src/index.d.ts",
+  "types": "lib/index.d.ts",
   "version": "0.0.0"
 }
